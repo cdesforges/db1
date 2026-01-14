@@ -1,5 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+import numpy as np
 
 filenames = [
     "../db1_data/calibration_data/calibration_data_1.csv",
@@ -37,9 +38,6 @@ averages.to_csv("averages.csv", index=False)
 
 
 # make a graph!
-
-import numpy as np
-import matplotlib.pyplot as plt
 
 # y = B * e ** (A * x)
 # ln(y) = Ax + lnB
